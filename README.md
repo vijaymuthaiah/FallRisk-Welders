@@ -22,3 +22,23 @@ Chronic welding exposure is associated with neurotoxic injury and secondary park
 ---
 
 ## Repository Structure
+welders-fall-risk-icf/
+│
+├── Code/
+│   ├── welders1qmdoutput.pdf          Rendered analysis report (Quarto/Markdown output)
+│   └── (R / Quarto scripts can be added here later)
+│
+├── Data/
+│   └── wdat1.xlsx                     Source dataset (ensure no PHI / de-identified)
+│
+├── Documents/
+│   └── Welders_Manuscript_12_30_2025.docx
+│                                      Manuscript draft
+│
+├── Output/
+│   ├── Figures.docx                   Compiled publication figures
+│   └── Tables.docx                    Compiled publication tables
+│
+├── README.md                          Project overview, methods, reproducibility
+│
+├── LICENSE                            (recommended – e.g., MIT)
